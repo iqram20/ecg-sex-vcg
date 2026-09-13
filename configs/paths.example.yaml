@@ -1,0 +1,8 @@
+# Copy to configs/paths.yaml and edit locally.
+project_root: /path/to/ecg-sex-vcg
+code_root: /path/to/original/final/code
+run_root: /path/to/final/run
+mimic_root: /path/to/mimic-iv-ecg
+wcmc_root: /path/to/wcmc-private-data
+ptbxl_root: /path/to/ptb-xl
+chapman_root: /path/to/chapman-ningbo

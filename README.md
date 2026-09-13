@@ -69,11 +69,14 @@ Corrected Integrated Gradients uses separate zero-reference representation-space
 configs/                     local path templates
 docs/                        reproducibility and governance notes
 results/source_data/         non-restricted source-data tables
+scripts/cohort/              WCMC/NYP cohort construction
+scripts/pretraining_transfer/ MIMIC pretraining and WCMC transfer
+scripts/training/            final five-seed VCG-Geometry ResNet training
+scripts/evaluation/          locked-test, external-validation, and data-efficiency analyses
+scripts/interpretability/    final interpretability analyses
 scripts/figures/             final manuscript figure generators
-scripts/tables/              manuscript table generators
-scripts/evaluation/          post-hoc evaluation analyses
-scripts/interpretability/    final interpretability scripts copied from Athena
-slurm/                       matching cluster job files
+scripts/tables/              final manuscript table generators
+slurm/final_pipeline/        matching cluster job files
 ```
 
 ## Important data-governance note
@@ -91,7 +94,7 @@ Public datasets must be obtained from their original sources and used under thei
 1. Create the environment from `environment.yml`.
 2. Copy `configs/paths.example.yaml` to `configs/paths.yaml`.
 3. Set local dataset/run paths.
-4. Run the exact final training/evaluation scripts listed in `docs/ATHENA_FINAL_CODE_MANIFEST.md`.
+4. Follow the validated pipeline lineage in `docs/PIPELINE_LINEAGE.md` and verify exact source hashes using `docs/FINAL_PIPELINE_SHA256.csv`.
 5. Run final manuscript figure/table scripts.
 
 The final Athena scripts are deliberately collected by filename rather than recreating them from the manuscript. This avoids silently changing the model implementation.

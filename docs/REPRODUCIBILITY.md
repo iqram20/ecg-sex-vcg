@@ -34,4 +34,4 @@ The attribution target is the male logit and numerical integration uses 48-node 
 
 ## Exact final code
 
-See `ATHENA_FINAL_CODE_MANIFEST.md`. The manuscript implementation should be reproduced from those exact source files, not reconstructed from the prose description.
+See `PIPELINE_LINEAGE.md` for the validated analysis lineage and `FINAL_PIPELINE_SHA256.csv` for SHA256 hashes of the exact canonical source files. The manuscript implementation should be reproduced from those source files rather than reconstructed from the prose description.

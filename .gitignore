@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+*.env
+
+# Local paths/configs
+configs/paths.yaml
+configs/local*.yaml
+
+# Credentials/secrets
+*.key
+*.pem
+credentials*
+secrets*
+
+# Restricted/raw ECG data
+data/
+raw_data/
+private_data/
+wcmc_data/
+mimic_data/
+*.dcm
+*.edf
+*.mat
+*.hea
+
+# Model checkpoints and large binaries
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Cluster outputs
+runs/
+outputs/
+logs/
+slurm-*.out
+*.out
+*.err
+
+# Generated publication outputs
+publication_figures/
+publication_tables/
+*.docx
+*.pptx
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

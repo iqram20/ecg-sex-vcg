@@ -1,0 +1,17 @@
+name: ecg-sex-vcg
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - joblib
+  - pyarrow
+  - pyyaml
+  - pip
+  - pip:
+      - torch

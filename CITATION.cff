@@ -1,15 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the associated manuscript."
-title: "Geometry-Aware Interpretable Deep Learning for ECG Biological Sex Classification"
+title: "Geometry-Aware Interpretable Deep Learning Reveals Sex-Associated ECG Signatures and Their Association with Postoperative Outcomes"
 type: software
 authors:
   - family-names: Hussain
     given-names: Iqram
   - family-names: Scarpa
     given-names: Joseph R.
-  - family-names: Armoundas
-    given-names: Antonis A.
   - family-names: Boyer
     given-names: Richard
-version: 0.1.0
-date-released: 2026-09-12
+version: 0.2.0
+date-released: 2026-09-26
